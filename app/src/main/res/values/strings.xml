@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Matefacil</string>
+    <string name="empezar">¡Empezar!</string>
+    <string name="juegos">Juegos</string>
+    <string name="solitario">Un Jugador</string>
+    <string name="multijugador">Dos Jugadores</string>
+    <string name="inicio">«-</string>
+</resources>

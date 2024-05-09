@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:padding="16dp"
+    tools:context=".juego_cuatro2">
+
+    <LinearLayout
+        android:id="@+id/imageLayout"
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="166dp"
+        android:background="@android:color/holo_green_light"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="100dp"
+        android:text="¿Cuántas abejas son?"
+        android:textColor="@color/white"
+        android:textSize="42dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAbejas1"
+        android:layout_width="186dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/imageLayout"
+        android:layout_alignEnd="@+id/imageLayout"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="193dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="1"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btnAbejas4"
+        android:layout_width="170dp"
+        android:layout_height="84dp"
+        android:layout_below="@+id/imageLayout"
+        android:layout_alignEnd="@+id/imageLayout"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="1dp"
+        android:backgroundTint="@color/material_dynamic_primary30"
+        android:text="4"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btnAbejas3"
+        android:layout_width="186dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/imageLayout"
+        android:layout_alignEnd="@+id/imageLayout"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="193dp"
+        android:backgroundTint="@color/material_dynamic_primary40"
+        android:text="3"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btnAbejas2"
+        android:layout_width="170dp"
+        android:layout_height="84dp"
+        android:layout_below="@+id/imageLayout"
+        android:layout_alignEnd="@+id/imageLayout"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="1dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="2"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btnPausaJuego4"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="19dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="||" />
+
+
+</RelativeLayout>
